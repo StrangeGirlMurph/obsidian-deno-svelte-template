@@ -27,7 +27,7 @@ export class ExampleView extends ItemView {
       target: this.contentEl,
       props: {
         variable: this.favoriteNumber,
-      }
+      },
     });
   }
 

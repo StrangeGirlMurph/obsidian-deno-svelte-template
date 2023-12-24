@@ -21,7 +21,10 @@ export default class MyPlugin extends Plugin {
   async onload() {
     await this.loadSettings();
 
-    this.registerView(VIEW_TYPE_EXAMPLE, (leaf) => new ExampleView(leaf, this.settings.favoriteNumber));
+    this.registerView(
+      VIEW_TYPE_EXAMPLE,
+      (leaf) => new ExampleView(leaf, this.settings.favoriteNumber),
+    );
 
     this.addRibbonIcon("hexagon", "FavoriteNumber", async () => {
       const { workspace } = this.app;
