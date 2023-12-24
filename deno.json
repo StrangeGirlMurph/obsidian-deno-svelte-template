@@ -1,0 +1,20 @@
+{
+  "tasks": {
+    "dev": "deno run -A npm:vite build --mode development --watch",
+    "build": "deno run -A npm:vite build --mode production",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "version": "deno run -A version-bump.mjs"
+  },
+  "imports": {
+    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte^2.4.6",
+    "@tsconfig/svelte": "npm:@tsconfig/svelte^5.0.2",
+    "@types/node": "npm:@types/node^20.8.10",
+    "builtin-modules": "npm:builtin-modules^3.3.0",
+    "obsidian": "npm:obsidian^1.4.11",
+    "svelte": "npm:svelte^4.2.2",
+    "svelte-check": "npm:svelte-check^3.5.2",
+    "tslib": "npm:tslib^2.6.2",
+    "typescript": "npm:typescript^5.2.2",
+    "vite": "npm:vite^4.5.0"
+  }
+}
