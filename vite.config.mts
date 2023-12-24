@@ -1,6 +1,6 @@
-import { svelte, vitePreprocess } from "@sveltejs/vite-plugin-svelte";
-import builtins from "builtin-modules";
-import { PluginOption, defineConfig } from "vite";
+import { defineConfig, PluginOption } from 'vite'
+import { svelte, vitePreprocess } from '@sveltejs/vite-plugin-svelte'
+import 'svelte'
 
 export default defineConfig(({ mode }) => {
 	return {
@@ -29,7 +29,6 @@ export default defineConfig(({ mode }) => {
 					"@lezer/common",
 					"@lezer/highlight",
 					"@lezer/lr",
-					...builtins,
 				],
 			},
 			outDir: ".",
