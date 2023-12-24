@@ -23,7 +23,6 @@ jobs:
       - name: Build
         id: build
         run: |
-          deno cache
           deno task build
           mkdir ${{ env.PLUGIN_NAME }}
           cp main.js manifest.json ${{ env.PLUGIN_NAME }}
