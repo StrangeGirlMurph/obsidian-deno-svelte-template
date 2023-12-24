@@ -1,11 +1,11 @@
 {
-	"id": "starter",
-	"name": "starter",
+	"id": "obsidian-deno-svelte-template",
+	"name": "Deno Template",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "asdf",
-	"author": "asdf",
-	"authorUrl": "asdf",
+	"description": "Template for developing Obsidian.md plugins using deno. ",
+	"author": "Murphy",
+	"authorUrl": "https://github.com/StrangeGirlMurph/",
 	"fundingUrl": { },
 	"isDesktopOnly": false
 }
